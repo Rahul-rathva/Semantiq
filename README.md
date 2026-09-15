@@ -91,13 +91,6 @@ curl -X POST http://localhost:8000/ask \
   -d '{"query": "how do I set up my laptop"}'
 ```
 
-## Roadmap / good next additions (for your resume story)
-- [ ] Swap fixed-size chunking for a recursive/semantic chunker
-- [ ] Add hybrid search (BM25 + vector) for better recall
-- [ ] Add Redis caching on repeated queries
-- [ ] Replace API-key auth with full JWT user accounts
-- [ ] Add reranking step (cross-encoder) before answer synthesis
-- [ ] Load test with `locust` and document throughput numbers
 
 ## License
 MIT
